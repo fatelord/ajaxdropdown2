@@ -117,7 +117,6 @@ function loadAllJudges(action, dropdownOneID, dropdownTwoID) {
         //get the selected value of the first dropdown
         //we will exclude this from loading in teh second dropdown
         filteredJudge = jQuery('#' + dropdownOneID).val();
-        alert(dropdownId);
     }
 
     //alert('Jusde selected is '+filteredJudge);
